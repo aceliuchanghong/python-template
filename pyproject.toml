@@ -1,0 +1,17 @@
+[project]
+name = "my-python-templete"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "easy-media-utils>=0.1.5",
+    "litserve>=0.2.6",
+    "openai>=1.65.4",
+    "python-dotenv>=1.0.1",
+    "termcolor>=2.5.0",
+]
+
+[tool.setuptools]
+py-modules = []
+
