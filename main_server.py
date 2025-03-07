@@ -13,5 +13,5 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 if __name__ == "__main__":
-    # python main_server.py
+    # uv run main_server.py
     logger.info(colored(f"hello", "green"))
