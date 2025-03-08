@@ -1,6 +1,15 @@
 from tree_utils.struct_tree_out import print_tree
 
+# import os
+# import sys
+
+# sys.path.insert(
+#     0,
+#     os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "../")),
+# )
+
 path = "../my_python_template"
+
 exclude_dirs_set = {
     "z_utils",
     ".env",
