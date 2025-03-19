@@ -7,12 +7,15 @@
 uv init
 uv venv
 source .venv/bin/activate
-
+uv pip install .
 conda create -n vllm python=3.10 -y
 conda activate vllm
+
 # win
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 .venv/Scripts/activate
 
-uv pip install .
+# 设置代理源
+pip install requests -i https://pypi.tuna.tsinghua.edu.cn/simple
+vi ~/.bashrc==>export PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple==>source ~/.bashrc
 ```
