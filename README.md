@@ -7,6 +7,9 @@
 uv init
 uv venv
 source .venv/bin/activate
+
+conda create -n vllm python=3.10 -y
+conda activate vllm
 # win
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 .venv/Scripts/activate
