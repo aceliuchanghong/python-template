@@ -173,3 +173,5 @@ no_git_oic
 00.md
 node_modules/
 .vscode/
+__marimo__
+marimo.toml
