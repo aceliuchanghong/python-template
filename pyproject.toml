@@ -1,7 +1,7 @@
 [project]
-name = "my-python-templete"
+name = "python_templete"
 version = "0.1.0"
-description = "Add your description here"
+description = "python project templete"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
